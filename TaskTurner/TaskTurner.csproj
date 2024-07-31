@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\Files\" />
+    <Folder Include="Assets\Images\" />
     <Folder Include="DataService\" />
     <Folder Include="Dictionaries\" />
     <Folder Include="Model\" />
