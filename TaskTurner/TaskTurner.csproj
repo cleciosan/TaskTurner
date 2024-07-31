@@ -95,7 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\" />
+    <Folder Include="Assets\Files\" />
     <Folder Include="DataService\" />
     <Folder Include="Dictionaries\" />
     <Folder Include="Model\" />
