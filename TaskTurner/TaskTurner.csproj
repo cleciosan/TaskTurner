@@ -99,6 +99,7 @@
     <Folder Include="DataService\" />
     <Folder Include="Dictionaries\" />
     <Folder Include="Model\" />
+    <Folder Include="Services\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
   </ItemGroup>
