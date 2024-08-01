@@ -22,6 +22,13 @@ namespace TaskTurner.Models
 
         public TimeSpan Timer { get; set; }
 
+
+        public TaskState TaskState { get; set; }
+
+        public TaskImportance TaskImportance { get; set; }
+
+        public TaskCategory TaskCategory { get; set; }
+
     }
 
     public enum TaskState
@@ -135,7 +142,7 @@ namespace TaskTurner.Models
         LongTermGoals
     }
 
-    public enum TaksImportance
+    public enum TaskImportance
     {
         /// <summary>
         /// Low importance. Suitable for tasks that are not urgent and can be deferred.
