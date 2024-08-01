@@ -18,12 +18,6 @@ namespace TaskTurner.ViewModels
             _canExecute = canExecute;
         }
 
-        public event EventHandler CanExecuteChanged
-        {
-            add { CommandManager.RequerySuggested += value; }
-            remove {  CommandManager.RequerySuggested -= value; }
-        }
-
         public bool CanExecute(object parameter)
         {
             return _canExecute == null || _canExecute();
@@ -32,6 +26,12 @@ namespace TaskTurner.ViewModels
         public void Execute(object parameter)
         {
             _execute();
+        }
+
+        public event EventHandler CanExecuteChanged
+        {
+            add { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
         }
     }
 
