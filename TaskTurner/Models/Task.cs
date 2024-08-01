@@ -23,4 +23,16 @@ namespace TaskTurner.Models
         public TimeSpan Timer { get; set; }
 
     }
+
+    public enum TaskState
+    {
+        InProgress,
+        Complete,
+        NotStarted,
+        Late,
+        Archived,
+        Deleted
+    }
+
+
 }
