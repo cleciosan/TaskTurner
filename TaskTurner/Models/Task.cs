@@ -26,11 +26,34 @@ namespace TaskTurner.Models
 
     public enum TaskState
     {
+        /// <summary>
+        /// The task is still in progress.
+        /// </summary>
         InProgress,
+
+        /// <summary>
+        /// The task has been marked as completed.
+        /// </summary>
         Complete,
+        
+        /// <summary>
+        /// The task hasn't been started yet.
+        /// </summary>
         NotStarted,
+        
+        /// <summary>
+        /// The task is late.
+        /// </summary>
         Late,
+        
+        /// <summary>
+        /// The task has been archived.
+        /// </summary>
         Archived,
+        
+        /// <summary>
+        /// The task has been marked as deleted.
+        /// </summary>
         Deleted
     }
 
@@ -110,5 +133,28 @@ namespace TaskTurner.Models
         /// Objectives or goals that you're working towards over a longer period.
         /// </summary>
         LongTermGoals
+    }
+
+    public enum TaksImportance
+    {
+        /// <summary>
+        /// Low importance. Suitable for tasks that are not urgent and can be deferred.
+        /// </summary>
+        Low,
+
+        /// <summary>
+        /// Medium importance. For tasks that are of regular priority.
+        /// </summary>
+        Medium,
+
+        /// <summary>
+        /// High importance. Tasks that need to be completed soon but are not critical.
+        /// </summary>
+        High,
+
+        /// <summary>
+        /// Critical importance. These tasks have the highest priority and often have tight deadlines or significant consequences if not completed in time.
+        /// </summary>
+        Critical
     }
 }
