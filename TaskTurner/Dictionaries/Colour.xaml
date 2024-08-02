@@ -4,8 +4,8 @@
     <!-- App Accent Dark -->
     <SolidColorBrush x:Key="AccentDark" Color="#FF164863"/>
     
-    <!-- Task List background -->
-    <SolidColorBrush x:Key="TaksListBackground" Color="#FFECECEC"/>
+    <!-- Task List Background-->
+    <SolidColorBrush x:Key="TaskListBackground" Color="#FFECECEC"/>
 
     <!-- Task View background -->
     <SolidColorBrush x:Key="WindowBackground" Color="#FFFFFFFF"/>
