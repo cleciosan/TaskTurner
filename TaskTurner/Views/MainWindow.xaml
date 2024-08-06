@@ -33,8 +33,18 @@
             </Grid.RowDefinitions>
             
             <!-- Task Label -->
-            <Label Content="Task"
-                   FontSize="40"/>
+            <Label Style="{StaticResource Heading1}" 
+                   Content="Task"
+                   VerticalAlignment="Center"
+                   Padding="20 0 0 0"
+                   IsHitTestVisible="False"/>
+            
+            <!-- Add New Task button-->
+            <Button HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Height="40"
+                    Width="40"
+                    Margin="0 0 20 0"/>
         </Grid>
         
         <!-- Task Status Bar -->
