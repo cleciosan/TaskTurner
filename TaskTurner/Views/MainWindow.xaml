@@ -40,11 +40,16 @@
                    IsHitTestVisible="False"/>
             
             <!-- Add New Task button-->
-            <Button HorizontalAlignment="Right"
+            <Button Style="{StaticResource RoundAccentButton}" 
+                    HorizontalAlignment="Right"
                     VerticalAlignment="Center"
                     Height="40"
                     Width="40"
-                    Margin="0 0 20 0"/>
+                    Margin="0 0 20 0">
+                <!-- Icon -->
+                <Path Data="{StaticResource NewTaskIcon}" 
+                      Fill="{StaticResource OnAccent}"/>
+            </Button>
         </Grid>
         
         <!-- Task Status Bar -->
