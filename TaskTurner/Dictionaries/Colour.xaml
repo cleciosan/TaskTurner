@@ -3,19 +3,18 @@
     
     <!-- App Accent Dark -->
     <SolidColorBrush x:Key="AccentDark" Color="#FF164863"/>
-    
+    <SolidColorBrush x:Key="AccentDarkOver" Color="#FF396A84"/>
+    <SolidColorBrush x:Key="AccentDarkClick" Color="#FF66A3C5"/>
     <!-- Task List Background-->
     <SolidColorBrush x:Key="TaskListBackground" Color="#FFECECEC"/>
-
     <!-- Task View background -->
     <SolidColorBrush x:Key="WindowBackground" Color="#FFFFFFFF"/>
-
     <!-- Task Status background -->
     <SolidColorBrush x:Key="TaskStatusBackground" Color="#FFF6F6F6"/>
-
     <!-- Default Text Colour -->
     <SolidColorBrush x:Key="Default Text" Color="#FF474747"/>
-
+    <!-- On Accent-->
+    <SolidColorBrush x:Key="OnAccent" Color="#FFFFFFFF"/>
 
     <!--Importance Colours -->
     <SolidColorBrush x:Key="Importance-Low" Color="#FF0CAFF4"/>
